@@ -1,7 +1,3 @@
-### Support Ukraine
-
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
-
 # Google Earth Engine plugin for QGIS
 
 Integrates Google Earth Engine with QGIS using Python API. 
@@ -116,4 +112,4 @@ The project welcomes any contributions and is greateful to all existing contribu
 
 If you'd like to contribute code to the project - please make sure it's related to one of the reported project issues or discussion topics and feel free to submit a Pull Request and it will be considered for addition.
 
-For any questions or disputes feel free to contact the original author of the project: gennadiy.donchyts@gmail.com
+For any questions or disputes feel free to contact the original author of the project: roshmeet.chakraborty@gmail.com
