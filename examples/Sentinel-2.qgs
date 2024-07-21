@@ -1,0 +1,211 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.0-A CoruÃ±a" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <layer-tree-layer providerKey="Google Earth Engine Raster Data Provider" source="type=xyz&amp;url=https://earthengine.googleapis.com/map/f1ea8360f2c0aea5148211e09c4de55b/{z}/{x}/{y}?token=87c3d86e6df714b32fa90b9d50beedab" expanded="1" name="Sentinel-2 images January, 2018" id="Sentinel_2_images_January__2018_14ccdd9f_c1b6_47bb_9acf_ec43b7b92763" checked="Qt::Checked">
+  </layer-tree-group>
+  <snapping-settings type="1" mode="2" enabled="0" tolerance="12" intersection-snapping="0" unit="1">
+    <individual-layer-settings/>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>3903674.64916303241625428</xmin>
+      <ymin>3620283.41940103424713016</ymin>
+      <xmax>3933217.50268342858180404</xmax>
+      <ymax>3645214.86736781941726804</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="Sentinel-2 images January, 2018" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="Sentinel_2_images_January__2018_14ccdd9f_c1b6_47bb_9acf_ec43b7b92763"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Sentinel_2_images_January__2018_14ccdd9f_c1b6_47bb_9acf_ec43b7b92763</id>
+      <datasource>type=xyz&amp;url=https://earthengine.googleapis.com/map/f1ea8360f2c0aea5148211e09c4de55b/{z}/{x}/{y}?token=87c3d86e6df714b32fa90b9d50beedab</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Sentinel-2 images January, 2018</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>EE</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="true" key="ee-layer"/>
+        <property value="{&quot;type&quot;: &quot;CompoundValue&quot;, &quot;scope&quot;: [[&quot;0&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;id&quot;: &quot;COPERNICUS/S2&quot;}, &quot;functionName&quot;: &quot;ImageCollection.load&quot;}], [&quot;1&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;start&quot;: &quot;2017-01-01&quot;, &quot;end&quot;: &quot;2017-01-02&quot;}, &quot;functionName&quot;: &quot;DateRange&quot;}], [&quot;2&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;rightField&quot;: &quot;system:time_start&quot;, &quot;leftValue&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;1&quot;}}, &quot;functionName&quot;: &quot;Filter.dateRangeContains&quot;}], [&quot;3&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;collection&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;0&quot;}, &quot;filter&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;2&quot;}}, &quot;functionName&quot;: &quot;Collection.filter&quot;}], [&quot;4&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;collection&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;3&quot;}}, &quot;functionName&quot;: &quot;reduce.median&quot;}], [&quot;5&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;value&quot;: 10000}, &quot;functionName&quot;: &quot;Image.constant&quot;}], [&quot;6&quot;, {&quot;type&quot;: &quot;Invocation&quot;, &quot;arguments&quot;: {&quot;image1&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;4&quot;}, &quot;image2&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;5&quot;}}, &quot;functionName&quot;: &quot;Image.divide&quot;}]], &quot;value&quot;: {&quot;type&quot;: &quot;ValueRef&quot;, &quot;value&quot;: &quot;6&quot;}}" key="ee-object"/>
+        <property value="{&quot;bands&quot;: [&quot;B12&quot;, &quot;B8&quot;, &quot;B4&quot;], &quot;min&quot;: 0.05, &quot;max&quot;: 0.5}" key="ee-object-vis"/>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" band="1" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeBlue="128" colorizeRed="255" grayscaleMode="0" colorizeGreen="128" saturation="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="Sentinel_2_images_January__2018_14ccdd9f_c1b6_47bb_9acf_ec43b7b92763"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">34</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">34</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">34</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Gennadii Donchyts</author>
+    <creation>2019-12-16T00:31:22</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+</qgis>
