@@ -2,8 +2,6 @@
 
 Integrates Google Earth Engine with QGIS using Python API. 
 
-Check [User Guide](https://gee-community.github.io/qgis-earthengine-plugin/) to get started or ask general questions and comments in the [Discussion](https://github.com/gee-community/qgis-earthengine-plugin/discussions) section.
-
 ![Add Sentinel-2 image](https://raw.githubusercontent.com/gee-community/qgis-earthengine-plugin/master/media/add_map_layer.png)
 
 ### Troubleshooting
